@@ -13,7 +13,7 @@ These are instructions for a basic software development environment for macOS.
    1. If necessary, create a [GitHub](http://github.com/) account.
 1. Install the Node version manager [n](https://www.npmjs.com/package/n#installation).
    1. Run `brew install n`.
-1. Install [pyenv](https://github.com/pyenv/pyenv/).
+1. Install the Python version manager [pyenv](https://github.com/pyenv/pyenv/).
    1. Install the [suggested build environment](https://github.com/pyenv/pyenv/wiki#suggested-build-environment).
       1. Run `brew install openssl readline sqlite3 xz zlib`.
       1. If you see an error that your `/usr/local/lib/pkgconfig` directory is not writable by your user,
@@ -38,3 +38,8 @@ These are instructions for a basic software development environment for macOS.
    1. Ask an engineering manager (e.g. VP of Engineering) for a PyCharm license.
 1. (Optional) [iTerm2](https://www.iterm2.com/downloads.html).
 1. (Optional) [Sublime Text 3](https://www.sublimetext.com/3).
+
+### References
+1. [Connecting to GitHub with SSH
+](https://docs.github.com/en/github/authenticating-to-github/connecting-to-github-with-ssh)
+1. [Managing Multiple Python Versions With pyenv](https://realpython.com/intro-to-pyenv/)
