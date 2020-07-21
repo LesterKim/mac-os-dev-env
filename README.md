@@ -30,13 +30,13 @@ These are instructions for a basic software development environment for macOS.
       1. Run `exec "$SHELL"` or restart your terminal.
 
 ### Desktop Applications
-1. [Slack](https://slack.com/downloads/mac).
-1. [Zoom](https://zoom.us/download).
-1. [Docker](https://docs.docker.com/get-docker/).
-1. (Optional) [PyCharm](https://www.jetbrains.com/pycharm/download).
+1. [Slack](https://slack.com/downloads/mac)
+1. [Zoom](https://zoom.us/download)
+1. [Docker](https://docs.docker.com/get-docker/)
+1. (Optional) [PyCharm](https://www.jetbrains.com/pycharm/download)
    1. Ask an engineering manager (e.g. VP of Engineering) for a PyCharm license.
-1. (Optional) [iTerm2](https://www.iterm2.com/downloads.html).
-1. (Optional) [Sublime Text 3](https://www.sublimetext.com/3).
+1. (Optional) [iTerm2](https://www.iterm2.com/downloads.html)
+1. (Optional) [Sublime Text 3](https://www.sublimetext.com/3)
 
 ### References
 1. [Connecting to GitHub with SSH
