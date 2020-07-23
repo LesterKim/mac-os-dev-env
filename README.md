@@ -8,9 +8,9 @@ These are instructions for a basic software development environment for macOS.
    run `/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"`.
 1. Install [OhMyZsh](https://ohmyz.sh/#install).
 1. Set up [git](https://docs.github.com/en/github/getting-started-with-github/set-up-git#setting-up-git).
-   1. Install git by installing the XCode Command Line tools.
-      1. Run `xcode-select --install`.
    1. If necessary, create a [GitHub](http://github.com/) account.
+   1. [Set your Git username for every repository on your computer](https://docs.github.com/en/github/using-git/setting-your-username-in-git#setting-your-git-username-for-every-repository-on-your-computer).
+   1. [Set your Git email for every repository on your computer](https://docs.github.com/en/github/setting-up-and-managing-your-github-user-account/setting-your-commit-email-address#setting-your-commit-email-address-in-git).
 1. Install the Node version manager [n](https://www.npmjs.com/package/n#installation).
    1. Run `brew install n`.
 1. Install the Python version manager [pyenv](https://github.com/pyenv/pyenv/).
