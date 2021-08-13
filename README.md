@@ -11,8 +11,13 @@ These are instructions for a basic software development environment for macOS.
    1. If necessary, create a [GitHub](http://github.com/) account.
    1. [Set your Git username for every repository on your computer](https://docs.github.com/en/github/using-git/setting-your-username-in-git#setting-your-git-username-for-every-repository-on-your-computer).
    1. [Set your Git email for every repository on your computer](https://docs.github.com/en/github/setting-up-and-managing-your-github-user-account/setting-your-commit-email-address#setting-your-commit-email-address-in-git).
-1. Install the Node version manager [n](https://www.npmjs.com/package/n#installation).
-   1. Run `brew install n`.
+1. Install a Node version manager. Two choices are `n` and `nvm`.
+   1. [n](https://www.npmjs.com/package/n#installation) installation:
+      1. Run `brew install n`.
+   1. [nvm](https://github.com/nvm-sh/nvm) installation:
+      1. There is a guide [here](https://tecadmin.net/install-nvm-macos-with-homebrew/)
+      1. Run `brew install nvm` and follow the guide to update your `.bash_profile` or similar.
+   - Note that the `aliro-qn-frontend` project requires Node 13.1.0, so make sure that is installed.
 1. Install the Python version manager [pyenv](https://github.com/pyenv/pyenv/).
    1. Install the [suggested build environment](https://github.com/pyenv/pyenv/wiki#suggested-build-environment).
       1. Run `brew install openssl readline sqlite3 xz zlib`.
@@ -28,6 +33,7 @@ These are instructions for a basic software development environment for macOS.
       1. Run `echo 'eval "$(pyenv init -)"' >> ~/.zshrc`.
       1. Run `echo 'eval "$(pyenv virtualenv-init -)"' >> ~/.zshrc`.
       1. Run `exec "$SHELL"` or restart your terminal.
+   1. As an alternative to `pyenv`, [Conda](https://docs.conda.io/projects/conda/en/latest/user-guide/install/index.html) can be used to manage environments in a way that some people find easier to use.
 
 ### Desktop Applications
 1. [Slack](https://slack.com/downloads/mac)
