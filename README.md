@@ -25,7 +25,7 @@ These are instructions for a basic software development environment for macOS.
    1. Configure `.zshrc`.
       1. Run `echo 'export PYENV_ROOT="$HOME/.pyenv"' >> ~/.zshrc`.
       1. Run `echo 'export PATH="$PYENV_ROOT/bin:$PATH"' >> ~/.zshrc`.
-      1. Run `echo 'eval "$(pyenv init -)"' >> ~/.zshrc`.
+      1. Run `echo 'eval "$(pyenv init --path)"' >> ~/.zshrc`.
       1. Run `echo 'eval "$(pyenv virtualenv-init -)"' >> ~/.zshrc`.
       1. Run `exec "$SHELL"` or restart your terminal.
 
