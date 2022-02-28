@@ -28,15 +28,15 @@ These are instructions for a basic software development environment for macOS.
       1. Run `echo 'eval "$(pyenv virtualenv-init -)"' >> ~/.zshrc`.
       1. Run `exec "$SHELL"` or restart your terminal.
 1. Install the Ruby Version Manager [RVM](https://rvm.io/).
-  1. Install GPG keys by running `gpg2 --recv-keys 409B6B1796C275462A1703113804BB82D39DC0E3 7D2BAF1CF37B13E2069D6956105BD0E739499BDB`.
-  1. Install RVM by running `\curl -sSL https://get.rvm.io | bash -s stable`.
+   1. Install GPG keys by running `gpg2 --recv-keys 409B6B1796C275462A1703113804BB82D39DC0E3 7D2BAF1CF37B13E2069D6956105BD0E739499BDB`.
+   1. Install RVM by running `\curl -sSL https://get.rvm.io | bash -s stable`.
 
 ### Desktop Applications
 1. [Slack](https://slack.com/downloads/mac)
 1. [Zoom](https://zoom.us/download)
 1. [Docker](https://docs.docker.com/get-docker/)
-1. (Optional) [PyCharm](https://www.jetbrains.com/pycharm/download)
-   1. Ask an engineering manager (e.g. VP of Engineering) for a PyCharm license.
+1. (Optional) [JetBrains](https://www.jetbrains.com/all)
+   1. Ask an engineering manager (e.g. VP of Engineering) for a JetBrains license.
 1. (Optional) [iTerm2](https://www.iterm2.com/downloads.html)
 1. (Optional) [Sublime Text 3](https://www.sublimetext.com/3)
 
