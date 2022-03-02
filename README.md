@@ -31,6 +31,7 @@ These are instructions for a basic software development environment for macOS.
    1. Install the GNU Privacy Guard by running `brew install gnupg`.
    1. Install GPG keys by running `gpg --recv-keys 409B6B1796C275462A1703113804BB82D39DC0E3 7D2BAF1CF37B13E2069D6956105BD0E739499BDB`.
    1. Install RVM by running `curl -sSL https://get.rvm.io | bash -s stable`.
+1. [Download and install Go](https://go.dev/doc/install)
 
 ### Desktop Applications
 1. [Slack](https://slack.com/downloads/mac)
