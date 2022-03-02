@@ -1,7 +1,8 @@
 # mac-os-dev-env
-These are instructions for a basic software development environment for macOS.
+These are instructions for a basic software development environment for [macOS](https://www.apple.com/macos).
 
 ### Command Line Tools
+#### Basic Tools
 1. Install [Homebrew](https://brew.sh/).
    1. From a terminal (e.g.
    [Terminal](https://support.apple.com/guide/terminal/open-or-quit-terminal-apd5265185d-f365-44cb-8b09-71a064a42125/mac)),
@@ -11,8 +12,10 @@ These are instructions for a basic software development environment for macOS.
    1. If necessary, create a [GitHub](http://github.com/) account.
    1. [Set your Git username for every repository on your computer](https://docs.github.com/en/github/using-git/setting-your-username-in-git#setting-your-git-username-for-every-repository-on-your-computer).
    1. [Set your Git email for every repository on your computer](https://docs.github.com/en/github/setting-up-and-managing-your-github-user-account/setting-your-commit-email-address#setting-your-commit-email-address-in-git).
-1. Install the Node Version Manager [NVM](https://github.com/nvm-sh/nvm#install--update-script).
-1. Install the Python version manager [pyenv](https://github.com/pyenv/pyenv/).
+
+#### Programming Languages
+1. Install the [Node](https://nodejs.org/en) Version Manager [NVM](https://github.com/nvm-sh/nvm#install--update-script).
+1. Install the [Python](https://www.python.org) version manager [pyenv](https://github.com/pyenv/pyenv/).
    1. Install the [suggested build environment](https://github.com/pyenv/pyenv/wiki#suggested-build-environment).
       1. Run `brew install openssl readline sqlite3 xz zlib`.
       1. If you see an error that your `/usr/local/lib/pkgconfig` directory is not writable by your user,
@@ -27,11 +30,21 @@ These are instructions for a basic software development environment for macOS.
       1. Run `echo 'eval "$(pyenv init --path)"' >> ~/.zshrc`.
       1. Run `echo 'eval "$(pyenv virtualenv-init -)"' >> ~/.zshrc`.
       1. Run `exec "$SHELL"` or restart your terminal.
-1. Install the Ruby Version Manager [RVM](https://rvm.io/).
-   1. Install the GNU Privacy Guard by running `brew install gnupg`.
-   1. Install GPG keys by running `gpg --recv-keys 409B6B1796C275462A1703113804BB82D39DC0E3 7D2BAF1CF37B13E2069D6956105BD0E739499BDB`.
-   1. Install RVM by running `curl -sSL https://get.rvm.io | bash -s stable`.
-1. [Download and install Go](https://go.dev/doc/install)
+1. Install the [Ruby](https://www.ruby-lang.org/en) Version Manager [RVM](https://rvm.io/).
+   1. Install the [GNU Privacy Guard](https://gnupg.org).
+      1. Run `brew install gnupg`.
+   1. Install GPG keys.
+      1. Run `gpg --recv-keys 409B6B1796C275462A1703113804BB82D39DC0E3 7D2BAF1CF37B13E2069D6956105BD0E739499BDB`.
+   1. Install RVM.
+      1. Run `curl -sSL https://get.rvm.io | bash -s stable`.
+1. Install [Go](https://go.dev).
+   1. Follow the [Go download and installation instructions](https://go.dev/doc/install).
+
+#### Databases
+1. Install [PostgreSQL](https://www.postgresql.org).
+   1. Run `brew install postgresql`.
+1. Install [Redis](https://redis.io).
+   1. Run `brew install redis`.
 
 ### Desktop Applications
 1. [Slack](https://slack.com/downloads/mac)
