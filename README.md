@@ -39,6 +39,8 @@ These are instructions for a basic software development environment for [macOS](
       1. Run `curl -sSL https://get.rvm.io | bash -s stable`.
 1. Install [Go](https://go.dev).
    1. Follow the [Go download and installation instructions](https://go.dev/doc/install).
+1. Install [Rust](https://www.rust-lang.org).
+   1. Run `curl https://sh.rustup.rs -sSf | sh -s -- -y`.
 
 #### Databases
 1. Install [PostgreSQL](https://www.postgresql.org).
