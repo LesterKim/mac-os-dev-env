@@ -7,11 +7,12 @@ These are instructions for a basic software development environment for [macOS](
    1. From a terminal (e.g.
    [Terminal](https://support.apple.com/guide/terminal/open-or-quit-terminal-apd5265185d-f365-44cb-8b09-71a064a42125/mac)),
    run `/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"`.
-1. Install [OhMyZsh](https://ohmyz.sh/#install).
+   1. For M1-chip MacBooks, add `eval $(/opt/homebrew/bin/brew shellenv)` to `.zshrc`.
 1. Set up [git](https://docs.github.com/en/github/getting-started-with-github/set-up-git#setting-up-git).
    1. If necessary, create a [GitHub](http://github.com/) account.
    1. [Set your Git username for every repository on your computer](https://docs.github.com/en/github/using-git/setting-your-username-in-git#setting-your-git-username-for-every-repository-on-your-computer).
    1. [Set your Git email for every repository on your computer](https://docs.github.com/en/github/setting-up-and-managing-your-github-user-account/setting-your-commit-email-address#setting-your-commit-email-address-in-git).
+1. (Optional) Install [OhMyZsh](https://ohmyz.sh/#install).
 
 #### Programming Languages
 1. Install the [Node](https://nodejs.org/en) Version Manager [NVM](https://github.com/nvm-sh/nvm#install--update-script).
