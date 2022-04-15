@@ -8,10 +8,14 @@ These are instructions for a basic software development environment for [macOS](
    [Terminal](https://support.apple.com/guide/terminal/open-or-quit-terminal-apd5265185d-f365-44cb-8b09-71a064a42125/mac)),
    run `/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"`.
    1. For M1-chip MacBooks, add `eval $(/opt/homebrew/bin/brew shellenv)` to `.zshrc`.
+1. Install the [GNU Privacy Guard](https://gnupg.org).
+   1. Run `brew install gnupg`.
 1. Set up [git](https://docs.github.com/en/github/getting-started-with-github/set-up-git#setting-up-git).
    1. If necessary, create a [GitHub](http://github.com/) account.
    1. [Set your Git username for every repository on your computer](https://docs.github.com/en/github/using-git/setting-your-username-in-git#setting-your-git-username-for-every-repository-on-your-computer).
    1. [Set your Git email for every repository on your computer](https://docs.github.com/en/github/setting-up-and-managing-your-github-user-account/setting-your-commit-email-address#setting-your-commit-email-address-in-git).
+   1. Configure commit signing.
+      1. For [GitLab](https://docs.gitlab.com/ee/user/project/repository/gpg_signed_commits/#configure-commit-signing)
 1. (Optional) Install [OhMyZsh](https://ohmyz.sh/#install).
 
 #### Programming Languages
@@ -32,8 +36,6 @@ These are instructions for a basic software development environment for [macOS](
       1. Run `echo 'eval "$(pyenv virtualenv-init -)"' >> ~/.zshrc`.
       1. Run `exec "$SHELL"` or restart your terminal.
 1. Install the [Ruby](https://www.ruby-lang.org/en) Version Manager [RVM](https://rvm.io/).
-   1. Install the [GNU Privacy Guard](https://gnupg.org).
-      1. Run `brew install gnupg`.
    1. Install GPG keys.
       1. Run `gpg --recv-keys 409B6B1796C275462A1703113804BB82D39DC0E3 7D2BAF1CF37B13E2069D6956105BD0E739499BDB`.
    1. Install RVM.
