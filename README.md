@@ -16,6 +16,7 @@ These are instructions for a basic software development environment for [macOS](
    1. [Set your Git email for every repository on your computer](https://docs.github.com/en/github/setting-up-and-managing-your-github-user-account/setting-your-commit-email-address#setting-your-commit-email-address-in-git).
    1. Configure commit signing.
       1. For [GitLab](https://docs.gitlab.com/ee/user/project/repository/gpg_signed_commits/#configure-commit-signing)
+      1. For [GitHub](https://docs.github.com/en/authentication/managing-commit-signature-verification)
 1. (Optional) Install [OhMyZsh](https://ohmyz.sh/#install).
 
 #### Programming Languages
